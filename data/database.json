@@ -11,7 +11,7 @@
       "phoneNumber": "398-225-9900",
       "avatar": "https://avatars.dicebear.com/api/human/uBmeaz5pX.svg",
       "defaultPrivacyLevel": "public",
-      "balance": 150953,
+      "balance": 0,
       "createdAt": "2023-03-09T22:26:40.101Z",
       "modifiedAt": "2024-03-07T10:07:57.580Z"
     },
@@ -26,7 +26,7 @@
       "phoneNumber": "410-786-2112",
       "avatar": "https://avatars.dicebear.com/api/human/GjWovtg2hr.svg",
       "defaultPrivacyLevel": "private",
-      "balance": 93026,
+      "balance": 200092026,
       "createdAt": "2023-04-23T13:52:10.979Z",
       "modifiedAt": "2024-03-07T09:07:46.709Z"
     },
@@ -74,237 +74,6 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
-    },
-    {
-      "id": "8kjWPT60I",
-      "uuid": "33b4e830-8130-4b34-8005-6c1781d60dc2",
-      "firstName": "João",
-      "lastName": "Silva",
-      "username": "joaosilva",
-      "password": "$2a$10$12NpsgwoOEDa23KqhMPIp.ZvgmOUh2TdciL7dP2EZQTYpaxls4SRi",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:16:47.149Z",
-      "modifiedAt": "2025-02-22T21:16:47.149Z"
-    },
-    {
-      "id": "v9go62SO8",
-      "uuid": "6341faba-3d17-48a2-be21-d8e276fb6d65",
-      "firstName": "João",
-      "lastName": "Silva",
-      "username": "joaosilva",
-      "password": "$2a$10$LtUyQLPT34PvW/u4di617uvrqVWIRKpBeS.4sP.vfQ1K8viVIJjkK",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:17:57.778Z",
-      "modifiedAt": "2025-02-22T21:17:57.778Z"
-    },
-    {
-      "id": "e0Q-VpfSB",
-      "uuid": "d04d9ff3-5434-4fe9-bd88-b95c75042d1b",
-      "firstName": "Maria",
-      "lastName": "Santos",
-      "username": "joaosilva",
-      "password": "$2a$10$z//vCBoh8zjfkR4gKY8y9eTc8Dw4EqyVHSjzR7PebCIG92kdgfvzS",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:17:59.283Z",
-      "modifiedAt": "2025-02-22T21:17:59.283Z"
-    },
-    {
-      "id": "ciqxdFhSG",
-      "uuid": "1ff35590-206b-4ad0-a601-b9c7c2f006a5",
-      "firstName": "João",
-      "lastName": "Silva",
-      "username": "joaosilva",
-      "password": "$2a$10$vLKdNVpMahf9ybSGjh.0R.LfpC3lnztj0w9pGY65bk4wkT25S6eRa",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:18:06.698Z",
-      "modifiedAt": "2025-02-22T21:18:06.698Z"
-    },
-    {
-      "id": "OtvauqKnp",
-      "uuid": "d489a221-5673-43d7-97be-36c5a11a5361",
-      "firstName": "João",
-      "lastName": "Silva",
-      "username": "joaosilva",
-      "password": "$2a$10$J1aH6qmijUicnHkDYrKjz.9IRqUxDrfEI98BYaxgHWNRJPqwbYDFa",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:30:46.963Z",
-      "modifiedAt": "2025-02-22T21:30:46.963Z"
-    },
-    {
-      "id": "2g6cnnXd7",
-      "uuid": "0cbe16ab-d0c6-4dde-961f-8874405c4098",
-      "firstName": "João",
-      "lastName": "Silva",
-      "username": "joaosilva",
-      "password": "$2a$10$V8gj4vAOHLo757yrwfcsPO55l3xKANcE2SKeOLBD9/qNF8rAvYoaq",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:31:32.252Z",
-      "modifiedAt": "2025-02-22T21:31:32.252Z"
-    },
-    {
-      "id": "2fGIjS-BE",
-      "uuid": "090478d4-bc31-40e3-8148-c85141d48070",
-      "firstName": "Maria",
-      "lastName": "Santos",
-      "username": "joaosilva",
-      "password": "$2a$10$8fH827ZLi3r6ceCWPzLDL.qt/YSlB65ePbBS/tm9QTzwM7P7uvKRq",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:31:33.763Z",
-      "modifiedAt": "2025-02-22T21:31:33.763Z"
-    },
-    {
-      "id": "IyWUELo70",
-      "uuid": "bb62a6dc-c4be-4a70-9856-5c2a2d685261",
-      "firstName": "João",
-      "lastName": "Silva",
-      "username": "joaosilva",
-      "password": "$2a$10$hsv2ZAYQbyBeC3GCw2vQGuJCrL1heAsmRnjUtGhAg92AV3TQMAe2W",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:31:41.724Z",
-      "modifiedAt": "2025-02-22T21:31:41.724Z"
-    },
-    {
-      "id": "X-XdJWxrF",
-      "uuid": "6847b1fb-9970-4c36-bb86-2d909f802b6d",
-      "firstName": "João",
-      "lastName": "Silva",
-      "username": "joaosilva",
-      "password": "$2a$10$c87zL1l0JAEcOvMBBytS6ukjiLPvMwoBnSPLHF6xyt10RIrspnImq",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:33:18.652Z",
-      "modifiedAt": "2025-02-22T21:33:18.652Z"
-    },
-    {
-      "id": "jX4okxAmE",
-      "uuid": "86c1db55-fe3e-46b8-99cc-694aa1a77796",
-      "firstName": "João",
-      "lastName": "Silva",
-      "username": "joaosilva",
-      "password": "$2a$10$F60oR9Tfok15K64.nUYzFuaxTEe0P.XRifH.0Culv0kYVHikOnU6i",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:35:11.519Z",
-      "modifiedAt": "2025-02-22T21:35:11.519Z"
-    },
-    {
-      "id": "RJvTxj1Cp",
-      "uuid": "cfe72206-28c0-42ff-be08-eb0f576f1467",
-      "firstName": "João",
-      "lastName": "Silva",
-      "username": "joaosilva",
-      "password": "$2a$10$kU2X5dmf5oVD/zqnwEVyk./FMRTWHRxMwqaCBXtKrzUbzikfDW4Bi",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:35:26.853Z",
-      "modifiedAt": "2025-02-22T21:35:26.853Z"
-    },
-    {
-      "id": "21UYxL3rh",
-      "uuid": "5f50ca4c-ef4c-4c59-b750-d1f50dda2fef",
-      "firstName": "Maria",
-      "lastName": "Santos",
-      "username": "joaosilva",
-      "password": "$2a$10$d2sbKlUccQOZb8DwdV/0xuXnN2o.fjkAnxKesB7frLKT9xfcMPIsW",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:35:28.369Z",
-      "modifiedAt": "2025-02-22T21:35:28.369Z"
-    },
-    {
-      "id": "sv0CCsz9h",
-      "uuid": "9a44e350-4a91-47a9-a797-da393210af54",
-      "firstName": "João",
-      "lastName": "Silva",
-      "username": "joaosilva",
-      "password": "$2a$10$X7Cx/R43t0eYqb2fcYVK9OcPKOr0p6eTlzQic6oDt2KP5GNAvP0vu",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:35:36.615Z",
-      "modifiedAt": "2025-02-22T21:35:36.615Z"
-    },
-    {
-      "id": "Ipnw5gLSX",
-      "uuid": "a9cb24ad-d60c-4c89-a90f-cf7819208bad",
-      "firstName": "João",
-      "lastName": "Silva",
-      "username": "joaosilva",
-      "password": "$2a$10$5fg5PLJ9mstXJhc1vK9crOBhKSD80sTgpBuypJGWO9HvvBHlf3gr2",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:38:55.141Z",
-      "modifiedAt": "2025-02-22T21:38:55.141Z"
-    },
-    {
-      "id": "P7ePjpF6J",
-      "uuid": "bfc528ae-a304-47f6-943e-0ffd5ef01044",
-      "firstName": "João",
-      "lastName": "Silva",
-      "username": "joaosilva",
-      "password": "$2a$10$sYsWI78oq43XkGJ/8S8RpOAWvGPIRvzGJxLeblHdf.J0gJCGLweDa",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:39:10.480Z",
-      "modifiedAt": "2025-02-22T21:39:10.480Z"
-    },
-    {
-      "id": "q4iOFGSNC",
-      "uuid": "f26548ea-3aaf-41a0-8b51-25d5e9208180",
-      "firstName": "Maria",
-      "lastName": "Santos",
-      "username": "joaosilva",
-      "password": "$2a$10$oTpnq6qZ.mq8aiW/x9f4nO.PNJ.t.9Xw9XJs8gXbFwQha0elv.9b2",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:39:11.966Z",
-      "modifiedAt": "2025-02-22T21:39:11.966Z"
-    },
-    {
-      "id": "BSFTfp1Gl",
-      "uuid": "bfd1d304-ef55-466c-aa90-dfaaae5bfa3e",
-      "firstName": "João",
-      "lastName": "Silva",
-      "username": "joaosilva",
-      "password": "$2a$10$bYT9PJI3Q2Ril8IuV7qa2eXwYfpL8vGaY6/ipIDbhIRbCTf6Oe7Im",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:39:20.388Z",
-      "modifiedAt": "2025-02-22T21:39:20.388Z"
-    },
-    {
-      "id": "78jwTHy8o",
-      "uuid": "b69b9e4e-c60c-48a4-94d5-5c5faee0ef19",
-      "firstName": "João",
-      "lastName": "Silva",
-      "username": "joaosilva",
-      "password": "$2a$10$MApouu.hi5AeP3kEbUGofecgvk.XJO1kaT24mviR1CrCyzDpAZWda",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:40:35.620Z",
-      "modifiedAt": "2025-02-22T21:40:35.620Z"
-    },
-    {
-      "id": "3triDCj6O",
-      "uuid": "79dcec7f-5481-4d25-8212-12a555f31d69",
-      "firstName": "João",
-      "lastName": "Silva",
-      "username": "joaosilva",
-      "password": "$2a$10$CFveG9RivzKWOVHtj33zV.qGm/8Kk.3Vnqupf8gQHi1UX07RYc.6a",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:40:52.609Z",
-      "modifiedAt": "2025-02-22T21:40:52.609Z"
-    },
-    {
-      "id": "eBPyK1cT_",
-      "uuid": "c45758b7-46af-44e6-ab1f-240383699694",
-      "firstName": "João",
-      "lastName": "Silva",
-      "username": "joaosilva",
-      "password": "$2a$10$vHUPUoiWwEFXWyWb3fhtKOZViWrNb0/3m3E844REzc9oQ9e6dm.uC",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:44:57.774Z",
-      "modifiedAt": "2025-02-22T21:44:57.774Z"
-    },
-    {
-      "id": "bKfCa3u2U",
-      "uuid": "f00de3c8-854a-4009-9789-a2a62b31906f",
-      "firstName": "João",
-      "lastName": "Silva",
-      "username": "joaosilva",
-      "password": "$2a$10$FFzNwvNExMKjXHEPQhhlpOGimevQ0Xs2.I.BLvBwmwfC847ZwViKa",
-      "balance": 0,
-      "createdAt": "2025-02-22T21:46:39.013Z",
-      "modifiedAt": "2025-02-22T21:46:39.013Z"
     }
   ],
   "contacts": [
@@ -10086,6 +9855,66 @@
       "requestResolvedAt": "",
       "createdAt": "2023-11-10T07:15:28.127Z",
       "modifiedAt": "2024-03-07T21:58:09.668Z"
+    },
+    {
+      "id": "ogkpu7mnD",
+      "uuid": "9affe6ff-453d-4971-9b25-6f22e499e6e3",
+      "amount": 1000,
+      "description": "Transferência com saldo suficiente",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-03-21T22:17:18.063Z",
+      "modifiedAt": "2025-03-21T22:17:18.063Z"
+    },
+    {
+      "id": "w8YR00kxY",
+      "uuid": "f3a39f95-2f28-4404-a0bc-1e32c233661a",
+      "amount": -1000,
+      "description": "Tentativa de transferência com valor negativo",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-03-21T22:17:20.521Z",
+      "modifiedAt": "2025-03-21T22:17:20.521Z"
+    },
+    {
+      "id": "JmY-Pxlr4",
+      "uuid": "7a2536e0-5133-4613-9550-fd4d308fe386",
+      "amount": 100000000,
+      "description": "Tentativa de transferência excessiva",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-03-21T22:17:22.735Z",
+      "modifiedAt": "2025-03-21T22:17:22.735Z"
+    },
+    {
+      "id": "PGaGY7wMb",
+      "uuid": "c580f3b3-4ac2-4f36-a4e6-92c4cfc0921f",
+      "amount": -1000,
+      "description": "Tentativa de transferência com valor negativo",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-03-21T22:17:24.987Z",
+      "modifiedAt": "2025-03-21T22:17:24.987Z"
+    },
+    {
+      "id": "3eDT7O_sv",
+      "uuid": "c87c8a58-c33d-4cc1-a6b5-b5b13936fd1d",
+      "amount": 100000000,
+      "description": "Tentativa de transferência excessiva",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2025-03-21T22:17:31.286Z",
+      "modifiedAt": "2025-03-21T22:17:31.286Z"
     }
   ],
   "likes": [
@@ -10662,6 +10491,56 @@
       "isRead": false,
       "createdAt": "2024-02-01T18:53:45.699Z",
       "modifiedAt": "2024-03-07T17:13:52.110Z"
+    },
+    {
+      "id": "ru6LoaPxd_",
+      "uuid": "7c669780-2661-43c8-afd7-be952245b47a",
+      "userId": "GjWovtg2hr",
+      "transactionId": "ogkpu7mnD",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-03-21T22:17:18.079Z",
+      "modifiedAt": "2025-03-21T22:17:18.079Z"
+    },
+    {
+      "id": "pmarwu1ZHy",
+      "uuid": "bdf19883-2a20-4ff1-bb4e-95651443a8cc",
+      "userId": "GjWovtg2hr",
+      "transactionId": "w8YR00kxY",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-03-21T22:17:20.533Z",
+      "modifiedAt": "2025-03-21T22:17:20.533Z"
+    },
+    {
+      "id": "cUuaomQCq5",
+      "uuid": "e704492f-6f26-422d-a4c1-da74fa21b80a",
+      "userId": "GjWovtg2hr",
+      "transactionId": "JmY-Pxlr4",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-03-21T22:17:22.754Z",
+      "modifiedAt": "2025-03-21T22:17:22.754Z"
+    },
+    {
+      "id": "2MUaMaNDnx",
+      "uuid": "e760d800-8e01-4753-855d-2e0856515f7a",
+      "userId": "GjWovtg2hr",
+      "transactionId": "PGaGY7wMb",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-03-21T22:17:25.002Z",
+      "modifiedAt": "2025-03-21T22:17:25.002Z"
+    },
+    {
+      "id": "I-8Pkfx1xj",
+      "uuid": "61176840-f5e8-47dd-a720-6de02a1fb7ef",
+      "userId": "GjWovtg2hr",
+      "transactionId": "3eDT7O_sv",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-03-21T22:17:31.304Z",
+      "modifiedAt": "2025-03-21T22:17:31.304Z"
     }
   ],
   "banktransfers": [
@@ -11214,6 +11093,26 @@
       "transactionId": "gaggAe7wNoiC",
       "createdAt": "2023-03-24T22:18:19.407Z",
       "modifiedAt": "2024-03-07T13:32:42.472Z"
+    },
+    {
+      "id": "WtOWlBSAri",
+      "uuid": "82552ce2-d952-4ab8-9cd8-122caf519d68",
+      "userId": "uBmeaz5pX",
+      "amount": 99849047,
+      "transactionId": "JmY-Pxlr4",
+      "type": "withdrawal",
+      "createdAt": "2025-03-21T22:17:22.738Z",
+      "modifiedAt": "2025-03-21T22:17:22.738Z"
+    },
+    {
+      "id": "WvPqBfFFeJ",
+      "uuid": "cf066ae6-ef69-4c06-a031-a4b5747f80ee",
+      "userId": "uBmeaz5pX",
+      "amount": 99999000,
+      "transactionId": "3eDT7O_sv",
+      "type": "withdrawal",
+      "createdAt": "2025-03-21T22:17:31.290Z",
+      "modifiedAt": "2025-03-21T22:17:31.290Z"
     }
   ]
 }
