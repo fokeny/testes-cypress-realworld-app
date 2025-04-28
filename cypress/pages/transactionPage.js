@@ -6,6 +6,7 @@ class TransactionPage{
             amountInput: "[data-test='transaction-create-amount-input']",
             descriptionInput: "[data-test='transaction-create-description-input']",
             confirmTransacitonButton: "[data-test='transaction-create-submit-payment']",
+            returnToTransactionsButton: "[data-test='new-transaction-return-to-transactions']",
         }
         return selectors
     }
@@ -16,6 +17,11 @@ class TransactionPage{
         cy.get(this.selectorsList().descriptionInput).type(description)
         cy.get(this.selectorsList().confirmTransacitonButton).click()
     }
+
+    returnToHome() {
+        cy.get(this.selectorsList().returnToTransactionsButton).click()
+    }
+
 
 }
 export default TransactionPage

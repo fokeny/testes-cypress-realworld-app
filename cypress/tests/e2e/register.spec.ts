@@ -34,31 +34,36 @@ describe('Testes de Registro de Usuário', () => {
 
   describe('Validações de Campos Obrigatórios', () => {
     it('Deve desabilitar o botão Signup se o Firstname não for preenchido', () => {
-      signupPage.registerPersonalDetails('{backspace}', 'Silva', 'joaosilva', 'SenhaForte123', 'SenhaForte123')
+      const { lastName,username, password, confirmPassword } = TEST_DATA.validUser
+      signupPage.registerPersonalDetails('{backspace}', lastName, username , password, confirmPassword )
       cy.get('#firstName-helper-text').should('be.visible')
       signupPage.checkSignupButtonDisabled()
     })
 
     it('Deve desabilitar o botão Signup se o Lastname não for preenchido', () => {
-      signupPage.registerPersonalDetails('João', '{backspace}', 'joaosilva', 'SenhaForte123', 'SenhaForte123')
+      const { firstName,username, password, confirmPassword } = TEST_DATA.validUser
+      signupPage.registerPersonalDetails(firstName, '{backspace}', username , password, confirmPassword )
       cy.get('#lastName-helper-text').should('be.visible')
       signupPage.checkSignupButtonDisabled()
     })
 
     it('Deve desabilitar o botão Signup se o Username não for preenchido', () => {
-      signupPage.registerPersonalDetails('João', 'Silva', '{backspace}', 'SenhaForte123', 'SenhaForte123')
+      const { firstName, lastName, password, confirmPassword } = TEST_DATA.validUser
+      signupPage.registerPersonalDetails(firstName, lastName, '{backspace}', password, confirmPassword )
       cy.get('#username-helper-text').should('be.visible')
       signupPage.checkSignupButtonDisabled()
     })
 
     it('Deve desabilitar o botão Signup se o Password não for preenchido', () => {
-      signupPage.registerPersonalDetails('João', 'Silva', 'joaosilva', '{backspace}', 'SenhaForte123')
+      const { firstName, lastName, username, confirmPassword } = TEST_DATA.validUser
+      signupPage.registerPersonalDetails(firstName, lastName, username, '{backspace}', confirmPassword )
       cy.get('#password-helper-text').should('be.visible')
       signupPage.checkSignupButtonDisabled()
     })
 
     it('Deve desabilitar o botão Signup se o Confirm Password não for preenchido', () => {
-      signupPage.registerPersonalDetails('João', 'Silva', 'joaosilva', 'SenhaForte123', '{backspace}')
+      const { firstName, lastName, username, password } = TEST_DATA.validUser
+      signupPage.registerPersonalDetails(firstName, lastName, username, password, '{backspace}')
       cy.get('.App-root').click()
       cy.get('#confirmPassword-helper-text').should('be.visible')
       signupPage.checkSignupButtonDisabled()
@@ -78,14 +83,16 @@ describe('Testes de Registro de Usuário', () => {
 
   describe('Validações de Senha', () => {
     it('Deve exibir erro quando as senhas não coincidirem', () => {
-      signupPage.registerPersonalDetails('João', 'Silva', 'joaosilva', 'SenhaForte123', 'SenhaForte456')
+      const { firstName, lastName, username, password } = TEST_DATA.validUser
+      signupPage.registerPersonalDetails(firstName, lastName, username, password, 'SenhaForte456')
       cy.get('.App-root').click()
       cy.get('#confirmPassword-helper-text').should('be.visible')
       signupPage.checkSignupButtonDisabled()
     })
 
     it('Deve exibir erro quando a senha for muito curta', () => {
-      signupPage.registerPersonalDetails('João', 'Silva', 'joaosilva', '123', '123')
+      const { firstName, lastName, username } = TEST_DATA.validUser
+      signupPage.registerPersonalDetails(firstName, lastName, username, '123', '123')
       cy.get('.App-root').click()
       cy.get('#password-helper-text').should('be.visible')
       signupPage.checkSignupButtonDisabled()
@@ -95,8 +102,8 @@ describe('Testes de Registro de Usuário', () => {
 
   describe('Validações de Interface', () => {
     it('Deve manter os dados preenchidos ao trocar entre campos', () => {
-      const { firstName, lastName, username } = TEST_DATA.validUser
-      signupPage.registerPersonalDetails(firstName, lastName, username, 'SenhaForte123', '{backspace}')
+      const { firstName, lastName, username, password } = TEST_DATA.validUser
+      signupPage.registerPersonalDetails(firstName, lastName, username, password, '{backspace}')
       cy.get('#firstName').should('have.value', firstName)
       cy.get('#lastName').should('have.value', lastName)
       cy.get('#username').should('have.value', username)

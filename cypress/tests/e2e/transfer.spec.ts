@@ -18,9 +18,8 @@ describe('Testes de tranferência de dinheiro', () => {
     it('Deve fazer uma transfêricia possuindo o valor em conta', () => {
       menuPage.clickTransferButton()
       cy.url().should('include', '/transaction')
-      transactionPage.transferContact01('10', 'Transferência com saldo suficiente')
+      transactionPage.transferContact01('401', 'Transferência com saldo suficiente')
       cy.get('.MuiAlert-message').should('be.visible').and('contain', "Transaction Submitted!")
-     
     })
   })
 
